@@ -1,0 +1,17 @@
+Attributes:
+1. Housing: 1-has housing loan; 0-doesn’t have housing loan
+2. Loan: 1-has personal loan; 0-doesn’t have personal loan
+3. Default: 1-has credit in default; 0-doesn’t have credit in default
+4-6. Age1-3: (30, 40]:age_1, (40, 55]:age_2, (55, 100]:age_3. If age1-3 are all equal to 0, 
+it means (17, 30]:age_0
+7-8: marital status: married, single. If all are equal 0, it means divorced.
+9-18: job type: blue-collar, entrepreneur, housemaid, management, retired, self-employed, 
+service, student, technician, unemployed.
+If all are equal 0, it means admin
+19-20: education: secondary, tertiary. If all are equal 0, it means primary
+21: contact type: 1-telephone, 0-cellular
+22: poutcome: other, success. If all are equal 0, it means failure.
+23-27: balance, pdays, duration, campaign, previous after normalization
+
+Output:
+Y: 1-but 0-not buy
